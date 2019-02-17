@@ -24,4 +24,4 @@ RUN npm install\
   && set TESSDATA_PREFIX='/usr/share/openalpr/runtime_data/ocr/'
 
 # Launch the Node APi
-ENTRYPOINT /bin/bash && node ./alpr-api.js
+ENTRYPOINT node ./alpr-api.js
